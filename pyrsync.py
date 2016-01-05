@@ -7,8 +7,8 @@ import datetime
 from datetime import *
 import time
 
-source = "/tmp/abc/*"
-target = "/tmp/bcd"
+source = "/tmp/abc/"
+target = "/tmp/bcd/"
 rsync = "rsync"  #/usr/bin/rsync
 arguments = "-av"
 exclude = ".xdiff/"
